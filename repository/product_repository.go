@@ -55,7 +55,6 @@ func (p *ProductRepository) FindProducts(ctx context.Context, in *fullcycle01grp
 		return nil, err
 	}
 
-	fmt.Println(res.Value)
 	returnVal := make([]*fullcycle01grpcgorm.Product, 0, len(results))
 	for _, each := range results {
 		returnVal = append(returnVal, &fullcycle01grpcgorm.Product{
