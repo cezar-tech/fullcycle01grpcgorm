@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/cezar-tech/fullcycle01grpcgorm/server"
+	"github.com/cezar-tech/fullcycle01grpcgorm/go/src/server"
 )
 
 func main() {
