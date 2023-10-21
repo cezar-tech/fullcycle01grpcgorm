@@ -1,5 +1,11 @@
 services:
-  app:
-    build: .
+  go:
+    build:
+      dockerfile: Dockerfile_go
     ports:
-    - "50051:50051"
+      - "50051:50051"
+  node:
+    build:
+      dockerfile: Dockerfile_node
+    ports:
+      - "3000:3000"

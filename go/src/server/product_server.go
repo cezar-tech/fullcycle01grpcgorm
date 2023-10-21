@@ -7,8 +7,8 @@ import (
 	"net"
 
 	db "github.com/cezar-tech/fullcycle01grpcgorm/go/src/db"
+	fullcycle01grpcgorm "github.com/cezar-tech/fullcycle01grpcgorm/go/src/proto"
 	"github.com/cezar-tech/fullcycle01grpcgorm/go/src/repository"
-	fullcycle01grpcgorm "github.com/cezar-tech/fullcycle01grpcgorm/proto"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"

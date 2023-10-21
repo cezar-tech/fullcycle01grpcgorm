@@ -6,7 +6,7 @@ import (
 
 	"log"
 
-	fullcycle01grpcgorm "github.com/cezar-tech/fullcycle01grpcgorm/proto"
+	fullcycle01grpcgorm "github.com/cezar-tech/fullcycle01grpcgorm/go/src/proto"
 	"github.com/jinzhu/gorm"
 )
 
